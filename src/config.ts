@@ -1,5 +1,5 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
+    website: "https://iparjo.github.io", // replace this with your deployed domain
     title: "Simple Portfolio",
     description: "A simple but beautiful portfolio created with Astro",
     tags: ["portfolio", "Resume cv", "Astro"],
@@ -14,10 +14,10 @@ export const SITE = {
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
+    name: "Iván P.",
+    profession: "Junior | Cyber Security Analyst | Penetration Tester",
     profileImage: "pp2.png",
-    profileFacts: [
+    /*profileFacts: [
         {
             value: 10,
             description: "Years of Experience"
@@ -30,7 +30,7 @@ export const ME = {
             value: 4,
             description: "Satisfied Clients"
         }
-    ],
+    ],*/
     contactInfo: {
         email: "vicbox.dev@vicbox.dev",
         linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
@@ -40,7 +40,7 @@ export const ME = {
 }
 
 export const SOCIALS = [
-    {
+    /*{
         name: "Twitter",
         url: "https://twitter.com/vicbox.dev",
         icon: "twitter-x-fill",
@@ -64,15 +64,16 @@ export const SOCIALS = [
         icon: "youtube-fill",
         show: true
     },
+    
     {
         name: "TikTok",
         url: "https://tiktok.com/vicbox.dev",
         icon: "tik-fill",
         show: false
     },
-    {
+    */{
         name: "GitHub",
-        url: "https://github.com/vicbox.dev",
+        url: "https://github.com/iparjo",
         icon: "github-fill",
         show: true
     }
